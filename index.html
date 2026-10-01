@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Naveen K - DevOps Engineer Portfolio" />
+  <title>Naveen K | DevOps Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home"><span>&lt;</span>Naveen<span>/&gt;</span></a>
+      <button id="menuBtn" class="menu-btn" aria-label="Open menu">☰</button>
+      <div id="navLinks" class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <button id="themeBtn" class="theme-btn" aria-label="Toggle theme">☾</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero container section">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>Naveen Kandregula</h1>
+        <h2>DevOps Engineer <span>·</span> Cloud & Automation Enthusiast</h2>
+        <p class="hero-text">I build reliable CI/CD pipelines, automate cloud infrastructure, containerize applications, and deploy scalable workloads with Kubernetes.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="resume.pdf" target="_blank">View Resume</a>
+        </div>
+        <div class="socials">
+          <a href="https://www.linkedin.com/in/naveen-kandregula-19007a26b" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="mailto:naveenkandregula50@gmail.com">Email</a>
+        </div>
+      </div>
+
+      <div class="terminal reveal">
+        <div class="terminal-bar"><i></i><i></i><i></i><span>naveen@devops:~</span></div>
+        <div class="terminal-body">
+          <p><b>$</b> whoami</p>
+          <p class="output">Naveen Kandregula — DevOps Engineer</p>
+          <p><b>$</b> cat skills.txt</p>
+          <p class="output">AWS · Docker · Kubernetes · Terraform<br>Jenkins · Git · Linux · CI/CD · Oracle</p>
+          <p><b>$</b> kubectl get goal</p>
+          <p class="output">NAME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; STATUS<br>automation &nbsp;&nbsp; Running<br>reliability &nbsp; Running<br>learning &nbsp;&nbsp;&nbsp; Running</p>
+          <p><b>$</b> <span class="cursor">▋</span></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section alt">
+      <div class="container">
+        <div class="section-head reveal"><p class="eyebrow">ABOUT ME</p><h2>Turning manual work into automation.</h2></div>
+        <div class="about-grid">
+          <div class="card reveal">
+            <p>II’m a technology professional focused on DevOps and cloud engineering. I enjoy creating repeatable infrastructure, improving deployments, and solving production problems through automation.</p>
+            <p>My hands-on learning includes AWS, Jenkins, Docker, Kubernetes, Terraform, Linux, Git/GitHub, CI/CD workflows, and monitoring concepts.</p>
+          </div>
+          <div class="stats reveal">
+            <div><strong>2+</strong><span>Years IT Experience</span></div>
+            <div><strong>9+</strong><span>Core DevOps Skills</span></div>
+            <div><strong>100%</strong><span>Learning Mindset</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section container">
+      <div class="section-head reveal"><p class="eyebrow">TECH STACK</p><h2>Tools I work with</h2></div>
+      <div class="skill-grid">
+        <article class="skill-card reveal"><div class="icon">☁</div><h3>Cloud</h3><p>AWS</p><div class="chips"><span>EC2</span><span>S3</span><span>IAM</span><span>VPC</span><span>ELB</span></div></article>
+        <article class="skill-card reveal"><div class="icon">▣</div><h3>Containers</h3><p>Docker & Kubernetes</p><div class="chips"><span>Docker</span><span>K8s</span><span>PV/PVC</span><span>Ingress</span></div></article>
+        <article class="skill-card reveal"><div class="icon">∞</div><h3>CI/CD</h3><p>Automation pipelines</p><div class="chips"><span>Jenkins</span><span>GitHub Actions</span><span>Git</span></div></article>
+        <article class="skill-card reveal"><div class="icon">⌘</div><h3>Infrastructure</h3><p>Infrastructure as Code</p><div class="chips"><span>Terraform</span><span>Linux</span><span>Bash</span></div></article>
+        <article class="skill-card reveal"><div class="icon">◉</div><h3>Monitoring</h3><p>Observability fundamentals</p><div class="chips"><span>Prometheus</span><span>Grafana</span><span>Logs</span></div></article>
+        <article class="skill-card reveal"><div class="icon">📄</div><h3>Documentation</h3><p>Technical writing and documentation</p><div class="chips"><span>Markdown</span><span>Confluence</span></div></article>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <div class="container">
+        <div class="section-head reveal"><p class="eyebrow">EXPERIENCE</p><h2>Professional journey</h2></div>
+        <div class="timeline">
+          <article class="timeline-item reveal"><span class="dot"></span><div class="card"><p class="date">Current</p><h3>IT Operations / Support Professional</h3><h4>Enterprise Environment</h4><p>Working in a production support environment while expanding hands-on DevOps expertise across cloud, CI/CD, containers, infrastructure automation, and Linux.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section container">
+      <div class="section-head reveal"><p class="eyebrow">PROJECTS</p><h2>Hands-on DevOps work</h2></div>
+      <div class="project-grid">
+        <article class="project-card reveal"><span class="project-num">01</span><h3>Jenkins CI/CD Pipeline</h3><p>Automated build and deployment workflow using Jenkins, GitHub and Docker with artifact/repository integration.</p><div class="chips"><span>Jenkins</span><span>Docker</span><span>GitHub</span><span>CI/CD</span></div></a></article>
+        <article class="project-card reveal"><span class="project-num">02</span><h3>Kubernetes Application Deployment</h3><p>Created Kubernetes manifests for Deployments, Services, Ingress, Persistent Volumes and Persistent Volume Claims.</p><div class="chips"><span>Kubernetes</span><span>YAML</span><span>Ingress</span><span>Storage</span></div></a></article>
+        <article class="project-card reveal"><span class="project-num">03</span><h3>Terraform AWS Infrastructure</h3><p>Infrastructure-as-Code project to provision AWS resources such as IAM components, key pairs, networking and compute resources.</p><div class="chips"><span>Terraform</span><span>AWS</span><span>IAM</span><span>EC2</span></div></a></article>
+        <article class="project-card reveal"><span class="project-num">04</span><h3>Web Server Log Automation</h3><p>Linux shell automation for collecting, organizing and retaining HTTP server logs for easier operational troubleshooting.</p><div class="chips"><span>Linux</span><span>Bash</span><span>HTTPD</span><span>Automation</span></div></a></article>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact reveal">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2>Interested in working together?</h2>
+        <p>I’m open to DevOps, Cloud and Infrastructure opportunities where I can contribute, automate, learn and grow.</p>
+        <div class="hero-actions"><a class="btn primary" href="mailto:naveenkandregula50@gmail.com">Send Email</a><a class="btn ghost" href="https://www.linkedin.com/in/naveen-kandregula-19007a26b" target="_blank">LinkedIn</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="container">Designed & built for <strong>Naveen K</strong> · DevOps Portfolio</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
